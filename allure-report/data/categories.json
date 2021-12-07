@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such alert\n                  (Session info: chrome=96.0.4664.55)",
+      "children" : [ {
+        "name" : "bar",
+        "uid" : "af83a4517a2acde1",
+        "parentUid" : "005ffbe768e45282bf5093afced46ae0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638683015401,
+          "stop" : 1638683017274,
+          "duration" : 1873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+      } ],
+      "uid" : "005ffbe768e45282bf5093afced46ae0"
+    }, {
+      "name" : "waitUntil condition failed with the following reason: this.getText is not a function",
+      "children" : [ {
+        "name" : "should wait until a certain condition occurs",
+        "uid" : "78d8ad1c1e7cbf17",
+        "parentUid" : "154c7cad790b753344f72baadd1ba34f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638755120991,
+          "stop" : 1638755132989,
+          "duration" : 11998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+      } ],
+      "uid" : "154c7cad790b753344f72baadd1ba34f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect window to have url\n                \n                Expected: \"https://the-internet.herokuapp.com/dropdown\"\n                Received: \"https://the-internet.herokuapp.com/\"",
+      "children" : [ {
+        "name" : "should demonstrate the dropdown list",
+        "uid" : "907a3a3205a41e8a",
+        "parentUid" : "ad3d620209021edb2afd08f058ce2a9e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638683238839,
+          "stop" : 1638683249441,
+          "duration" : 10602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+      } ],
+      "uid" : "ad3d620209021edb2afd08f058ce2a9e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

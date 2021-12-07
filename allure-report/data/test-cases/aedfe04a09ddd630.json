@@ -1,0 +1,75 @@
+{
+  "uid" : "aedfe04a09ddd630",
+  "name" : "Should hover(mouse) over an object",
+  "fullName" : "Interacting with page elements.Should hover(mouse) over an object",
+  "historyId" : "54c15b0682e1f64cb39064346b0b5d03",
+  "time" : {
+    "start" : 1638660007965,
+    "stop" : 1638660009316,
+    "duration" : 1351
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "244c75969d807548",
+      "name" : "Execution video",
+      "source" : "244c75969d807548.mp4",
+      "type" : "video/mp4",
+      "size" : 15418
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should hover(mouse) over an object"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aedfe04a09ddd630.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

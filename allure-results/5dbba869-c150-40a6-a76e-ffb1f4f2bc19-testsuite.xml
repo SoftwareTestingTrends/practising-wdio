@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638590021938' stop='1638590023008'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638590021939' status='passed' stop='1638590022946'>
+            <name>Should be able to get all Links from the webpage</name>
+            <title>Should be able to get all Links from the webpage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='9f3a4892-2522-4c11-ae78-0f2f39829d8f-attachment.mp4' type='video/mp4' size='206'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,97 @@
+{
+  "uid" : "10376fb3275183f0",
+  "name" : "should get the text from the page elements",
+  "fullName" : "Interacting with page elements.should get the text from the page elements",
+  "historyId" : "ff2cb22fc66a294b06bf82c7cbe89def",
+  "time" : {
+    "start" : 1638683214179,
+    "stop" : 1638683215901,
+    "duration" : 1722
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f74a7ffb384c4eb0",
+      "name" : "Execution video",
+      "source" : "f74a7ffb384c4eb0.mp4",
+      "type" : "video/mp4",
+      "size" : 13084
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Getting the text from the page elements"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should get the text from the page elements"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1b265d492f8f83fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638507178424,
+        "stop" : 1638507180244,
+        "duration" : 1820
+      }
+    }, {
+      "uid" : "bd6c45c024d5c40b",
+      "status" : "broken",
+      "statusDetails" : "HomePage.pageHeading is not a function",
+      "time" : {
+        "start" : 1638507143828,
+        "stop" : 1638507145055,
+        "duration" : 1227
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10376fb3275183f0.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

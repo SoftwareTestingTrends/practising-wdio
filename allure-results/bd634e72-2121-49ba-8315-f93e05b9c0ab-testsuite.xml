@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638507123166' stop='1638507124925'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638507123167' status='passed' stop='1638507124921'>
+            <name>should be able to click on element</name>
+            <title>should be able to click on element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='story' value='Clicking a link to navigate to another page'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='3d548656-92ba-4fe2-86fc-9e1a6c660a01-attachment.mp4' type='video/mp4' size='192'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

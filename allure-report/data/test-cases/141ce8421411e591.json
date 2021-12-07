@@ -1,0 +1,93 @@
+{
+  "uid" : "141ce8421411e591",
+  "name" : "TC001_Taking Element Screenshot",
+  "fullName" : "Webdriver.io examples.TC001_Taking Element Screenshot",
+  "historyId" : "d88538fd15f4275618c3e009cadc08c4",
+  "time" : {
+    "start" : 1638584013009,
+    "stop" : 1638584013029,
+    "duration" : 20
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5920a05faaa24ff",
+      "name" : "Execution video",
+      "source" : "5920a05faaa24ff.mp4",
+      "type" : "video/mp4",
+      "size" : 7969
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Webdriver.io examples"
+  }, {
+    "name" : "testClass",
+    "value" : "Webdriver.io examples"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC001_Taking Element Screenshot"
+  }, {
+    "name" : "package",
+    "value" : "Webdriver.io examples"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "16869f51825aba06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638583898984,
+        "stop" : 1638583899012,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "84616ef13d902cf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638583742458,
+        "stop" : 1638583742521,
+        "duration" : 63
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "141ce8421411e591.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

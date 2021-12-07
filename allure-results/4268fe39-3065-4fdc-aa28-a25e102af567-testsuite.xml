@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638677619981' stop='1638677622167'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638677619982' status='broken' stop='1638677622164'>
+            <name>should demonstrate the dragAndDrop command</name>
+            <title>should demonstrate the dragAndDrop command</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='87eb0512-2ce4-41ed-a175-dec796c51a1d-attachment.mp4' type='video/mp4' size='200'/>
+            </attachments>
+            <failure>
+                <message>command dragAndDrop requires an WebdriverIO Element or and object with "x" and "y" variables as first parameter</message>
+                <stack-trace>Error: command dragAndDrop requires an WebdriverIO Element or and object with "x" and "y" variables as first parameter
+                    at Element.dragAndDrop (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/commands/element/dragAndDrop.js:58:15)
+                    at Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:38)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Element.elementErrorHandlerCallbackFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/middlewares.js:24:32)
+                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)
+                    at async Context.&lt;anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:164:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

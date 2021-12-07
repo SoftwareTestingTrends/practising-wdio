@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638585018845' stop='1638585022204'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638585018846' status='passed' stop='1638585022200'>
+            <name>should save a screenshot of the browser view</name>
+            <title>should save a screenshot of the browser view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='d154270b-50f9-4e8d-94b1-36525f4e45e9-attachment.mp4' type='video/mp4' size='202'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

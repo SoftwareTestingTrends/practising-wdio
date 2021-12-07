@@ -1,0 +1,285 @@
+{
+  "uid" : "b6d570a7fb3bd7f1",
+  "name" : "Should switch to a frame",
+  "fullName" : "Interacting with page elements.Should switch to a frame",
+  "historyId" : "13702d56f7c3f1f56985263c7441e44d",
+  "time" : {
+    "start" : 1638683233200,
+    "stop" : 1638683237371,
+    "duration" : 4171
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "321af080a2add25a",
+      "name" : "Execution video",
+      "source" : "321af080a2add25a.mp4",
+      "type" : "video/mp4",
+      "size" : 35080
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should switch to a frame"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2553548dd6114172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638676077352,
+        "stop" : 1638676081737,
+        "duration" : 4385
+      }
+    }, {
+      "uid" : "83e50f4e80b63ddb",
+      "status" : "broken",
+      "statusDetails" : "Invalid Chai property: toHaveUrl",
+      "time" : {
+        "start" : 1638676057842,
+        "stop" : 1638676059568,
+        "duration" : 1726
+      }
+    }, {
+      "uid" : "9f46a0e0964fc08b",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=96.0.4664.55)",
+      "time" : {
+        "start" : 1638675746114,
+        "stop" : 1638675750332,
+        "duration" : 4218
+      }
+    }, {
+      "uid" : "592d7a1ade654a90",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|object|null)\n                Actual: string\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1638675652881,
+        "stop" : 1638675655825,
+        "duration" : 2944
+      }
+    }, {
+      "uid" : "809f0fae9c1e4d3e",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=96.0.4664.55)",
+      "time" : {
+        "start" : 1638675525531,
+        "stop" : 1638675528334,
+        "duration" : 2803
+      }
+    }, {
+      "uid" : "b8273adc1ef86c86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638675399707,
+        "stop" : 1638675403916,
+        "duration" : 4209
+      }
+    }, {
+      "uid" : "1469210dd040013f",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=96.0.4664.55)",
+      "time" : {
+        "start" : 1638675373104,
+        "stop" : 1638675376032,
+        "duration" : 2928
+      }
+    }, {
+      "uid" : "483f3c0d2d893474",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638674821174,
+        "stop" : 1638674825535,
+        "duration" : 4361
+      }
+    }, {
+      "uid" : "ed4563285a5f6f0e",
+      "status" : "broken",
+      "statusDetails" : "Invalid Chai property: toHaveUrl",
+      "time" : {
+        "start" : 1638674794333,
+        "stop" : 1638674796402,
+        "duration" : 2069
+      }
+    }, {
+      "uid" : "fc453251400011a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638674615933,
+        "stop" : 1638674620035,
+        "duration" : 4102
+      }
+    }, {
+      "uid" : "8eb3c6f472549aaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638674448668,
+        "stop" : 1638674453706,
+        "duration" : 5038
+      }
+    }, {
+      "uid" : "a0864fcc53e76f6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638674394411,
+        "stop" : 1638674399379,
+        "duration" : 4968
+      }
+    }, {
+      "uid" : "acedec1d58885e72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638674028720,
+        "stop" : 1638674031422,
+        "duration" : 2702
+      }
+    }, {
+      "uid" : "4fe2802e7752f879",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638674009038,
+        "stop" : 1638674011842,
+        "duration" : 2804
+      }
+    }, {
+      "uid" : "d410063c458d5000",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=96.0.4664.55)",
+      "time" : {
+        "start" : 1638673972129,
+        "stop" : 1638673974916,
+        "duration" : 2787
+      }
+    }, {
+      "uid" : "4b26686a63c86935",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=96.0.4664.55)",
+      "time" : {
+        "start" : 1638673087602,
+        "stop" : 1638673090968,
+        "duration" : 3366
+      }
+    }, {
+      "uid" : "a0e8cea8d43a3c96",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=96.0.4664.55)",
+      "time" : {
+        "start" : 1638672616219,
+        "stop" : 1638672619221,
+        "duration" : 3002
+      }
+    }, {
+      "uid" : "8770b3b60225c4ec",
+      "status" : "broken",
+      "statusDetails" : "browser.switchToFrame(...).click is not a function",
+      "time" : {
+        "start" : 1638668352507,
+        "stop" : 1638668360191,
+        "duration" : 7684
+      }
+    }, {
+      "uid" : "7d33ff873df4d90f",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=96.0.4664.55)",
+      "time" : {
+        "start" : 1638668019534,
+        "stop" : 1638668023302,
+        "duration" : 3768
+      }
+    }, {
+      "uid" : "1f908ed8c37a8354",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=96.0.4664.55)",
+      "time" : {
+        "start" : 1638667971449,
+        "stop" : 1638667975656,
+        "duration" : 4207
+      }
+    }, {
+      "uid" : "cee9d701aa45c3",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=96.0.4664.55)",
+      "time" : {
+        "start" : 1638667931311,
+        "stop" : 1638667934129,
+        "duration" : 2818
+      }
+    }, {
+      "uid" : "84bf69f8d5305398",
+      "status" : "broken",
+      "statusDetails" : "browser.switchToFrame(...).clearValue is not a function",
+      "time" : {
+        "start" : 1638667636833,
+        "stop" : 1638667640755,
+        "duration" : 3922
+      }
+    }, {
+      "uid" : "ad69c9bbcbe7a1a6",
+      "status" : "broken",
+      "statusDetails" : "Frames is not defined",
+      "time" : {
+        "start" : 1638667597673,
+        "stop" : 1638667601281,
+        "duration" : 3608
+      }
+    }, {
+      "uid" : "c56e910718dcecc5",
+      "status" : "broken",
+      "statusDetails" : "Frames is not defined",
+      "time" : {
+        "start" : 1638667529238,
+        "stop" : 1638667534441,
+        "duration" : 5203
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6d570a7fb3bd7f1.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

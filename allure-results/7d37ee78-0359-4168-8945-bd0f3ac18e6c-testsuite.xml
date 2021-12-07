@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638758653113' stop='1638758656556'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1638758653113' status='passed' stop='1638758655878'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='story' value='Login Story'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='29641885-61ab-4b72-95de-69b8c9d47997-attachment.mp4' type='video/mp4' size='183'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638758655883' status='passed' stop='1638758656554'>
+            <name>should logout from the site</name>
+            <title>should logout from the site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='story' value='Logout Story'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='853f6e5a-d56d-4f11-9e78-d4da1603de94-attachment.mp4' type='video/mp4' size='175'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

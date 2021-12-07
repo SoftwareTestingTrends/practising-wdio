@@ -1,0 +1,79 @@
+{
+  "uid" : "3cf3f5f9a64a52ed",
+  "name" : "should demonstrate the use of dynamic controls",
+  "fullName" : "Interacting with page elements.should demonstrate the use of dynamic controls",
+  "historyId" : "f104e524e2bab1fbce7996ac8da92897",
+  "time" : {
+    "start" : 1638748306648,
+    "stop" : 1638748318383,
+    "duration" : 11735
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"h3\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"h3\" because element wasn't found\n                    at implicitWait (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:237:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call getText on element with selector \"h3\" because element wasn't found",
+    "statusTrace" : "Error: Can't call getText on element with selector \"h3\" because element wasn't found\n                    at implicitWait (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:237:16)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "efd305d97067fd39",
+      "name" : "Execution video",
+      "source" : "efd305d97067fd39.mp4",
+      "type" : "video/mp4",
+      "size" : 18694
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should demonstrate the use of dynamic controls"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cf3f5f9a64a52ed.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

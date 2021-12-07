@@ -1,0 +1,79 @@
+{
+  "uid" : "d410063c458d5000",
+  "name" : "Should switch to a frame",
+  "fullName" : "Interacting with page elements.Should switch to a frame",
+  "historyId" : "13702d56f7c3f1f56985263c7441e44d",
+  "time" : {
+    "start" : 1638673972129,
+    "stop" : 1638673974916,
+    "duration" : 2787
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such frame\n                  (Session info: chrome=96.0.4664.55)",
+  "statusTrace" : "0   chromedriver                        0x00000001068cc269 __gxx_personality_v0 + 582729\n                1   chromedriver                        0x0000000106857c33 __gxx_personality_v0 + 106003\n                2   chromedriver                        0x0000000106414cdf chromedriver + 171231\n                3   chromedriver                        0x00000001064189e8 chromedriver + 186856\n                4   chromedriver                        0x000000010647bdea chromedriver + 593386\n                5   chromedriver                        0x0000000106467912 chromedriver + 510226\n                6   chromedriver                        0x000000010647a462 chromedriver + 586850\n                7   chromedriver                        0x0000000106467c23 chromedriver + 511011\n                8   chromedriver                        0x000000010643d75e chromedriver + 337758\n                9   chromedriver                        0x000000010643ea95 chromedriver + 342677\n                10  chromedriver                        0x00000001068888ab __gxx_personality_v0 + 305803\n                11  chromedriver                        0x000000010689f863 __gxx_personality_v0 + 399939\n                12  chromedriver                        0x00000001068a4c7f __gxx_personality_v0 + 421471\n                13  chromedriver                        0x00000001068a0bba __gxx_personality_v0 + 404890\n                14  chromedriver                        0x000000010687ce51 __gxx_personality_v0 + 258097\n                15  chromedriver                        0x00000001068bc158 __gxx_personality_v0 + 516920\n                16  chromedriver                        0x00000001068bc2e1 __gxx_personality_v0 + 517313\n                17  chromedriver                        0x00000001068d36f8 __gxx_personality_v0 + 612568\n                18  libsystem_pthread.dylib             0x00007fff204cb8fc _pthread_start + 224\n                19  libsystem_pthread.dylib             0x00007fff204c7443 thread_start + 15\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such frame\n                  (Session info: chrome=96.0.4664.55)",
+    "statusTrace" : "0   chromedriver                        0x00000001068cc269 __gxx_personality_v0 + 582729\n                1   chromedriver                        0x0000000106857c33 __gxx_personality_v0 + 106003\n                2   chromedriver                        0x0000000106414cdf chromedriver + 171231\n                3   chromedriver                        0x00000001064189e8 chromedriver + 186856\n                4   chromedriver                        0x000000010647bdea chromedriver + 593386\n                5   chromedriver                        0x0000000106467912 chromedriver + 510226\n                6   chromedriver                        0x000000010647a462 chromedriver + 586850\n                7   chromedriver                        0x0000000106467c23 chromedriver + 511011\n                8   chromedriver                        0x000000010643d75e chromedriver + 337758\n                9   chromedriver                        0x000000010643ea95 chromedriver + 342677\n                10  chromedriver                        0x00000001068888ab __gxx_personality_v0 + 305803\n                11  chromedriver                        0x000000010689f863 __gxx_personality_v0 + 399939\n                12  chromedriver                        0x00000001068a4c7f __gxx_personality_v0 + 421471\n                13  chromedriver                        0x00000001068a0bba __gxx_personality_v0 + 404890\n                14  chromedriver                        0x000000010687ce51 __gxx_personality_v0 + 258097\n                15  chromedriver                        0x00000001068bc158 __gxx_personality_v0 + 516920\n                16  chromedriver                        0x00000001068bc2e1 __gxx_personality_v0 + 517313\n                17  chromedriver                        0x00000001068d36f8 __gxx_personality_v0 + 612568\n                18  libsystem_pthread.dylib             0x00007fff204cb8fc _pthread_start + 224\n                19  libsystem_pthread.dylib             0x00007fff204c7443 thread_start + 15\n                ",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bc0ca72801736c8e",
+      "name" : "Execution video",
+      "source" : "bc0ca72801736c8e.mp4",
+      "type" : "video/mp4",
+      "size" : 24612
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should switch to a frame"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d410063c458d5000.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

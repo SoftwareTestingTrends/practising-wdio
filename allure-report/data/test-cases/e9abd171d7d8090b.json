@@ -1,0 +1,281 @@
+{
+  "uid" : "e9abd171d7d8090b",
+  "name" : "should get the text for the element",
+  "fullName" : "Interacting with elements.should get the text for the element",
+  "historyId" : "cdf8d7c838869f09959a1c972412db18",
+  "time" : {
+    "start" : 1638505273334,
+    "stop" : 1638505275525,
+    "duration" : 2191
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "155ece0ef0fd89ad",
+      "name" : "Execution video",
+      "source" : "155ece0ef0fd89ad.mp4",
+      "type" : "video/mp4",
+      "size" : 13057
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Home Page Validation"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should get the text for the element"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2b342bc8c89a9ddb",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'equal' of undefined",
+      "time" : {
+        "start" : 1638503605268,
+        "stop" : 1638503606745,
+        "duration" : 1477
+      }
+    }, {
+      "uid" : "4fb498a77c9abde0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638503504961,
+        "stop" : 1638503506412,
+        "duration" : 1451
+      }
+    }, {
+      "uid" : "490c01228eb0b5d0",
+      "status" : "failed",
+      "statusDetails" : "expected 'Welcome to the-internet' to equal 'Welcome to the-internet2'      \n                      actual expected\n                      \n                      'Welcome to the-internetinternet2'\n                      ",
+      "time" : {
+        "start" : 1638503444591,
+        "stop" : 1638503446972,
+        "duration" : 2381
+      }
+    }, {
+      "uid" : "77f67e04f667b14f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638503426666,
+        "stop" : 1638503428832,
+        "duration" : 2166
+      }
+    }, {
+      "uid" : "33beaca3a348fa9b",
+      "status" : "broken",
+      "statusDetails" : "Invalid Chai property: toHaveTextContaining",
+      "time" : {
+        "start" : 1638503380660,
+        "stop" : 1638503382970,
+        "duration" : 2310
+      }
+    }, {
+      "uid" : "1e424f1b105e31ef",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'equal' of undefined",
+      "time" : {
+        "start" : 1638503268526,
+        "stop" : 1638503270318,
+        "duration" : 1792
+      }
+    }, {
+      "uid" : "269493dadcb14a4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638503166085,
+        "stop" : 1638503167832,
+        "duration" : 1747
+      }
+    }, {
+      "uid" : "2ed831600f647114",
+      "status" : "failed",
+      "statusDetails" : "Expect Welcome to the-internet to have text containing\n                \n                Expected: \"Welcome to the-internet\"\n                Received: undefined",
+      "time" : {
+        "start" : 1638503120770,
+        "stop" : 1638503132576,
+        "duration" : 11806
+      }
+    }, {
+      "uid" : "a12dacf52e8ef3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638503093587,
+        "stop" : 1638503094687,
+        "duration" : 1100
+      }
+    }, {
+      "uid" : "bccf020e446b94ee",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`.heading`) to have text containing\n                \n                Expected: \"Welcome to the-internet3\"\n                Received: \"Welcome to the-internet\"",
+      "time" : {
+        "start" : 1638502847389,
+        "stop" : 1638502858644,
+        "duration" : 11255
+      }
+    }, {
+      "uid" : "dad741cc89254407",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638502492012,
+        "stop" : 1638502494000,
+        "duration" : 1988
+      }
+    }, {
+      "uid" : "913999bb9e4bc8b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638502467948,
+        "stop" : 1638502469865,
+        "duration" : 1917
+      }
+    }, {
+      "uid" : "fa33b9c019a7df88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638502229441,
+        "stop" : 1638502231282,
+        "duration" : 1841
+      }
+    }, {
+      "uid" : "273a982a09a8dbee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638502177693,
+        "stop" : 1638502179059,
+        "duration" : 1366
+      }
+    }, {
+      "uid" : "6ff567d4766be664",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638502119088,
+        "stop" : 1638502120131,
+        "duration" : 1043
+      }
+    }, {
+      "uid" : "d0bf3a03afd4461a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638501987836,
+        "stop" : 1638501989667,
+        "duration" : 1831
+      }
+    }, {
+      "uid" : "41fd2c12018daa7e",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"h2\" because element wasn't found",
+      "time" : {
+        "start" : 1638501883501,
+        "stop" : 1638501894069,
+        "duration" : 10568
+      }
+    }, {
+      "uid" : "f4fedb44606f0bf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638501447704,
+        "stop" : 1638501448779,
+        "duration" : 1075
+      }
+    }, {
+      "uid" : "4b867632918ef83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638501380629,
+        "stop" : 1638501380663,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "92d4e4aac6c3efa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638501311394,
+        "stop" : 1638501311425,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "a511517249eb4e68",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"h2\" because element wasn't found",
+      "time" : {
+        "start" : 1638501272220,
+        "stop" : 1638501282268,
+        "duration" : 10048
+      }
+    }, {
+      "uid" : "f3c235871973f148",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"h2\" because element wasn't found",
+      "time" : {
+        "start" : 1638501246559,
+        "stop" : 1638501256613,
+        "duration" : 10054
+      }
+    }, {
+      "uid" : "f5edae1b4c577535",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638501200985,
+        "stop" : 1638501201003,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "942e6c7ce5290cbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638501154292,
+        "stop" : 1638501154347,
+        "duration" : 55
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9abd171d7d8090b.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

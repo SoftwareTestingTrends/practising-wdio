@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638579182062' stop='1638579183837'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638579182063' status='broken' stop='1638579183833'>
+            <name>should be able to get a list of elements</name>
+            <title>should be able to get a list of elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='story' value='Getting a list of elements displayed on the page'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='204eed83-4417-40db-a31f-a4fc0cc716e1-attachment.mp4' type='video/mp4' size='198'/>
+            </attachments>
+            <failure>
+                <message>this.item(...).getText is not a function</message>
+                <stack-trace>TypeError: this.item(...).getText is not a function
+                    at HomePage.specificListElement (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/pageobjects/home.page.js:38:66)
+                    at Context.&lt;anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:46:62)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

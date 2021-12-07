@@ -1,0 +1,79 @@
+{
+  "uid" : "284cd4c3a34fec5a",
+  "name" : "Should click a checkbox",
+  "fullName" : "Interacting with page elements.Should click a checkbox",
+  "historyId" : "62524a212da4f1a4ba3264d864b2bf3d",
+  "time" : {
+    "start" : 1638653013350,
+    "stop" : 1638653014529,
+    "duration" : 1179
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HomePage.pageLinkCheckbox is not a function",
+  "statusTrace" : "TypeError: HomePage.pageLinkCheckbox is not a function\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:91:24)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "HomePage.pageLinkCheckbox is not a function",
+    "statusTrace" : "TypeError: HomePage.pageLinkCheckbox is not a function\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:91:24)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8fca623b13ec1828",
+      "name" : "Execution video",
+      "source" : "8fca623b13ec1828.mp4",
+      "type" : "video/mp4",
+      "size" : 13084
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click a checkbox"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "284cd4c3a34fec5a.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

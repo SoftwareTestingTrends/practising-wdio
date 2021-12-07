@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638665522587' stop='1638665524973'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638665522588' status='broken' stop='1638665524968'>
+            <name>Should open a new window</name>
+            <title>Should open a new window</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='58970101-2a3e-44fb-8eb8-afe48687cff2-attachment.mp4' type='video/mp4' size='182'/>
+            </attachments>
+            <failure>
+                <message>h3 is not defined</message>
+                <stack-trace>ReferenceError: h3 is not defined
+                    at MultipleWindowsPage.get newWindowHeading [as newWindowHeading] (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/pageobjects/multiple_windows.page.js:19:18)
+                    at Context.&lt;anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:129:42)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

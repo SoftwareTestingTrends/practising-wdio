@@ -1,0 +1,75 @@
+{
+  "uid" : "1f1851afc68d2da",
+  "name" : "should demonstrate the use of dynamic controls - Existence/non-existence of an element",
+  "fullName" : "Interacting with page elements.should demonstrate the use of dynamic controls - Existence/non-existence of an element",
+  "historyId" : "4bb11b35b7a53979cd00eeda7a44c050",
+  "time" : {
+    "start" : 1638755178118,
+    "stop" : 1638755187003,
+    "duration" : 8885
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ebe2413e0cb6f492",
+      "name" : "Execution video",
+      "source" : "ebe2413e0cb6f492.mp4",
+      "type" : "video/mp4",
+      "size" : 23774
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should demonstrate the use of dynamic controls - Existence/non-existence of an element"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f1851afc68d2da.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

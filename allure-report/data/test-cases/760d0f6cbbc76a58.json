@@ -1,0 +1,82 @@
+{
+  "uid" : "760d0f6cbbc76a58",
+  "name" : "should be able to click on element",
+  "fullName" : "Interacting with page elements.should be able to click on element",
+  "historyId" : "9d196912403525311ee0462180e1af7a",
+  "time" : {
+    "start" : 1638506493433,
+    "stop" : 1638506495014,
+    "duration" : 1581
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'A/B Test Control' to equal 'A/B Test Variation 1'      \n                      actual expected\n                      \n                      'A/B Test ControlVariation 1'\n                      ",
+  "statusTrace" : "AssertionError: expected 'A/B Test Control' to equal 'A/B Test Variation 1'\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:23:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'A/B Test Control' to equal 'A/B Test Variation 1'      \n                      actual expected\n                      \n                      'A/B Test ControlVariation 1'\n                      ",
+    "statusTrace" : "AssertionError: expected 'A/B Test Control' to equal 'A/B Test Variation 1'\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:23:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "19347f776f0f5a8e",
+      "name" : "Execution video",
+      "source" : "19347f776f0f5a8e.mp4",
+      "type" : "video/mp4",
+      "size" : 10897
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Clicking a link to navigate to another page"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to click on element"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "760d0f6cbbc76a58.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

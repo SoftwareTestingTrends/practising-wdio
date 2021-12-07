@@ -1,0 +1,79 @@
+{
+  "uid" : "d00b64faa8f6df7a",
+  "name" : "should demonstrate the dropdown list",
+  "fullName" : "Interacting with page elements.should demonstrate the dropdown list",
+  "historyId" : "79b57ebf5501d3ec92e764f7975bba25",
+  "time" : {
+    "start" : 1638679457293,
+    "stop" : 1638679476044,
+    "duration" : 18751
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://the-internet.herokuapp.com/drag_and_drop\"\n                Received: \"https://the-internet.herokuapp.com/dropdown\"",
+  "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://the-internet.herokuapp.com/drag_and_drop\"\n                Received: \"https://the-internet.herokuapp.com/dropdown\"\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:190:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://the-internet.herokuapp.com/drag_and_drop\"\n                Received: \"https://the-internet.herokuapp.com/dropdown\"",
+    "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://the-internet.herokuapp.com/drag_and_drop\"\n                Received: \"https://the-internet.herokuapp.com/dropdown\"\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:190:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ab39be13f413f58",
+      "name" : "Execution video",
+      "source" : "4ab39be13f413f58.mp4",
+      "type" : "video/mp4",
+      "size" : 18447
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should demonstrate the dropdown list"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d00b64faa8f6df7a.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

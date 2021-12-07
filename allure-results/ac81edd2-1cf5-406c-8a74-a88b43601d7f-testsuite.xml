@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638500196893' stop='1638500201879'>
+    <name>User can log out from the site</name>
+    <title>User can log out from the site</title>
+    <test-cases>
+        <test-case start='1638500196894' status='passed' stop='1638500201875'>
+            <name>should logout from the site</name>
+            <title>should logout from the site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='01c2701f-78a2-410b-8a20-cbf07c150f2b-attachment.mp4' type='video/mp4' size='185'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

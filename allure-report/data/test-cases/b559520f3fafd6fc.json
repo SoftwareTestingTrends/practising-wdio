@@ -1,0 +1,79 @@
+{
+  "uid" : "b559520f3fafd6fc",
+  "name" : "should wait until a certain condition occurs",
+  "fullName" : "Usage of 'waitUntil' for a certain condition.should wait until a certain condition occurs",
+  "historyId" : "bb6d61191bfd7484e574605686e62139",
+  "time" : {
+    "start" : 1638755011356,
+    "stop" : 1638755023494,
+    "duration" : 12138
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition failed with the following reason: this.getText is not a function",
+  "statusTrace" : "Error: waitUntil condition failed with the following reason: this.getText is not a function\n                    at /Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/commands/browser/waitUntil.js:70:15\n                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:298:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition failed with the following reason: this.getText is not a function",
+    "statusTrace" : "Error: waitUntil condition failed with the following reason: this.getText is not a function\n                    at /Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/commands/browser/waitUntil.js:70:15\n                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:298:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb88315539478a01",
+      "name" : "Execution video",
+      "source" : "fb88315539478a01.mp4",
+      "type" : "video/mp4",
+      "size" : 20945
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Usage of 'waitUntil' for a certain condition"
+  }, {
+    "name" : "testClass",
+    "value" : "Usage of 'waitUntil' for a certain condition"
+  }, {
+    "name" : "testMethod",
+    "value" : "should wait until a certain condition occurs"
+  }, {
+    "name" : "package",
+    "value" : "Usage of 'waitUntil' for a certain condition"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b559520f3fafd6fc.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

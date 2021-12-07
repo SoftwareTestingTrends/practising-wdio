@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638748255719' stop='1638748266992'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638748255719' status='failed' stop='1638748266984'>
+            <name>should demonstrate the use of dynamic controls</name>
+            <title>should demonstrate the use of dynamic controls</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='4a295bbc-29d3-4225-ab86-fda9873635f8-attachment.mp4' type='video/mp4' size='204'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have url
+                
+                Expected: "http://the-internet.herokuapp.com/dynamic_controls"
+                Received: "https://the-internet.herokuapp.com/dynamic_controls"</message>
+                <stack-trace>Error: Expect window to have url
+                
+                Expected: "http://the-internet.herokuapp.com/dynamic_controls"
+                Received: "https://the-internet.herokuapp.com/dynamic_controls"
+                    at Context.&lt;anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:236:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638588282863' stop='1638588284238'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638588282863' status='passed' stop='1638588284234'>
+            <name>Should be able to authenticate</name>
+            <title>Should be able to authenticate</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='fe05da98-76e9-4d4a-9817-a7d8ec4e3c32-attachment.mp4' type='video/mp4' size='188'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,79 @@
+{
+  "uid" : "cb944175cc92ef20",
+  "name" : "should demonstrate the dropdown list",
+  "fullName" : "Interacting with page elements.should demonstrate the dropdown list",
+  "historyId" : "79b57ebf5501d3ec92e764f7975bba25",
+  "time" : {
+    "start" : 1638679362213,
+    "stop" : 1638679404209,
+    "duration" : 41996
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"=Dropdown\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"=Dropdown\" because element wasn't found\n                    at implicitWait (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:189:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call click on element with selector \"=Dropdown\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"=Dropdown\" because element wasn't found\n                    at implicitWait (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:189:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eac79751a53a5633",
+      "name" : "Execution video",
+      "source" : "eac79751a53a5633.mp4",
+      "type" : "video/mp4",
+      "size" : 14908
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should demonstrate the dropdown list"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb944175cc92ef20.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

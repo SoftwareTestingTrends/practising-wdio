@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638674821173' stop='1638674825549'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638674821174' status='passed' stop='1638674825535'>
+            <name>Should switch to a frame</name>
+            <title>Should switch to a frame</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='275791e0-c55f-4460-be46-b2f6b1646604-attachment.mp4' type='video/mp4' size='182'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

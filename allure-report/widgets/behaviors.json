@@ -1,0 +1,70 @@
+{
+  "total" : 27,
+  "items" : [ {
+    "uid" : "fbf7327ffba1c1e8097687fbbf915de7",
+    "name" : "Getting the text from the page elements",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "e531c1d6778a76c786254787bd7224e3",
+    "name" : "Home Page Validation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "abeb7c4faebf899feb30c9b5edc214cb",
+    "name" : "Clicking a link to navigate to another page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6eb9e4b2572a5419fd5ce0cf7e7f3751",
+    "name" : "Getting a list of elements displayed on the page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "53833bbf5810e68e0540fc61b56a897d",
+    "name" : "Login Story",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "67aedb7860a54ebec9ce6188206da37b",
+    "name" : "Logout Story",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

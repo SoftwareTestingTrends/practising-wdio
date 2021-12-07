@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638659195248' stop='1638659197530'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638659195248' status='passed' stop='1638659197527'>
+            <name>should be able to get a list of elements</name>
+            <title>should be able to get a list of elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='story' value='Getting a list of elements displayed on the page'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='f8ea1fe1-2a31-4da1-acdb-0ec14d643722-attachment.mp4' type='video/mp4' size='198'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

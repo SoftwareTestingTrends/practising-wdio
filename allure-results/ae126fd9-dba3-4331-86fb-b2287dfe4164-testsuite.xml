@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638675373103' stop='1638675376036'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638675373104' status='broken' stop='1638675376032'>
+            <name>Should switch to a frame</name>
+            <title>Should switch to a frame</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='c4d7f0c5-a4b6-497f-b1be-6e79d5ec162d-attachment.mp4' type='video/mp4' size='182'/>
+            </attachments>
+            <failure>
+                <message>invalid argument: missing 'ELEMENT'
+                  (Session info: chrome=96.0.4664.55)</message>
+                <stack-trace>0   chromedriver                        0x00000001048cc269 __gxx_personality_v0 + 582729
+                1   chromedriver                        0x0000000104857c33 __gxx_personality_v0 + 106003
+                2   chromedriver                        0x0000000104414e28 chromedriver + 171560
+                3   chromedriver                        0x000000010447bae1 chromedriver + 592609
+                4   chromedriver                        0x0000000104467912 chromedriver + 510226
+                5   chromedriver                        0x000000010447a462 chromedriver + 586850
+                6   chromedriver                        0x0000000104467c23 chromedriver + 511011
+                7   chromedriver                        0x000000010443d75e chromedriver + 337758
+                8   chromedriver                        0x000000010443ea95 chromedriver + 342677
+                9   chromedriver                        0x00000001048888ab __gxx_personality_v0 + 305803
+                10  chromedriver                        0x000000010489f863 __gxx_personality_v0 + 399939
+                11  chromedriver                        0x00000001048a4c7f __gxx_personality_v0 + 421471
+                12  chromedriver                        0x00000001048a0bba __gxx_personality_v0 + 404890
+                13  chromedriver                        0x000000010487ce51 __gxx_personality_v0 + 258097
+                14  chromedriver                        0x00000001048bc158 __gxx_personality_v0 + 516920
+                15  chromedriver                        0x00000001048bc2e1 __gxx_personality_v0 + 517313
+                16  chromedriver                        0x00000001048d36f8 __gxx_personality_v0 + 612568
+                17  libsystem_pthread.dylib             0x00007fff204cb8fc _pthread_start + 224
+                18  libsystem_pthread.dylib             0x00007fff204c7443 thread_start + 15
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

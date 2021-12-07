@@ -1,0 +1,79 @@
+{
+  "uid" : "20abbb7b17baf1f6",
+  "name" : "Should hover(mouse) over an object",
+  "fullName" : "Interacting with page elements.Should hover(mouse) over an object",
+  "historyId" : "54c15b0682e1f64cb39064346b0b5d03",
+  "time" : {
+    "start" : 1638660500918,
+    "stop" : 1638660503445,
+    "duration" : 2527
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.call is not a function",
+  "statusTrace" : "TypeError: browser.call is not a function\n                    at Object.toHaveUrlFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/expect-webdriverio/lib/matchers/browser/toHaveUrl.js:9:20)\n                    at Object.runJestExpect (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/expect-webdriverio/lib/util/expectAdapter.js:10:15)\n                    at Object.toHaveUrl (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/expect-webdriverio/lib/matchers/browser/toHaveUrl.js:24:38)\n                    at __EXTERNAL_MATCHER_TRAP__ (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/expect/build/index.js:386:30)\n                    at Object.throwingMatcher [as toHaveUrl] (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/expect/build/index.js:387:15)\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:105:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "browser.call is not a function",
+    "statusTrace" : "TypeError: browser.call is not a function\n                    at Object.toHaveUrlFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/expect-webdriverio/lib/matchers/browser/toHaveUrl.js:9:20)\n                    at Object.runJestExpect (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/expect-webdriverio/lib/util/expectAdapter.js:10:15)\n                    at Object.toHaveUrl (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/expect-webdriverio/lib/matchers/browser/toHaveUrl.js:24:38)\n                    at __EXTERNAL_MATCHER_TRAP__ (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/expect/build/index.js:386:30)\n                    at Object.throwingMatcher [as toHaveUrl] (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/expect/build/index.js:387:15)\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:105:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a7522b7041a3f4b6",
+      "name" : "Execution video",
+      "source" : "a7522b7041a3f4b6.mp4",
+      "type" : "video/mp4",
+      "size" : 15418
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should hover(mouse) over an object"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20abbb7b17baf1f6.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

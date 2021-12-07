@@ -1,0 +1,245 @@
+{
+  "uid" : "a18bb1d0b85bb484",
+  "name" : "should be able to click on element",
+  "fullName" : "Interacting with page elements.should be able to click on element",
+  "historyId" : "9d196912403525311ee0462180e1af7a",
+  "time" : {
+    "start" : 1638683215906,
+    "stop" : 1638683217064,
+    "duration" : 1158
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5f24fb4cb596b09f",
+      "name" : "Execution video",
+      "source" : "5f24fb4cb596b09f.mp4",
+      "type" : "video/mp4",
+      "size" : 15122
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Clicking a link to navigate to another page"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to click on element"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "29d1d9fa921196c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638662320747,
+        "stop" : 1638662322711,
+        "duration" : 1964
+      }
+    }, {
+      "uid" : "fd8c4733b4c8c9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638658591448,
+        "stop" : 1638658593286,
+        "duration" : 1838
+      }
+    }, {
+      "uid" : "3580dcb5c5cfe178",
+      "status" : "broken",
+      "statusDetails" : "Invalid Chai property: toHaveUrl",
+      "time" : {
+        "start" : 1638658558420,
+        "stop" : 1638658561348,
+        "duration" : 2928
+      }
+    }, {
+      "uid" : "30b3a2cc32f4a37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638508784736,
+        "stop" : 1638508786385,
+        "duration" : 1649
+      }
+    }, {
+      "uid" : "c494646dfaccc04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638508282235,
+        "stop" : 1638508284735,
+        "duration" : 2500
+      }
+    }, {
+      "uid" : "26942088764a35b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638508167412,
+        "stop" : 1638508169165,
+        "duration" : 1753
+      }
+    }, {
+      "uid" : "4e2c34b3a9ed6aa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638508074616,
+        "stop" : 1638508076271,
+        "duration" : 1655
+      }
+    }, {
+      "uid" : "bc5725a0b9686c1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638507974580,
+        "stop" : 1638507976430,
+        "duration" : 1850
+      }
+    }, {
+      "uid" : "65c8df23dd2e94bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638507515985,
+        "stop" : 1638507518245,
+        "duration" : 2260
+      }
+    }, {
+      "uid" : "887dcbdb4c666b64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638507180250,
+        "stop" : 1638507180844,
+        "duration" : 594
+      }
+    }, {
+      "uid" : "36e0e8328eeab04b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638507145061,
+        "stop" : 1638507145944,
+        "duration" : 883
+      }
+    }, {
+      "uid" : "d8cec3b82ded327f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638507123167,
+        "stop" : 1638507124921,
+        "duration" : 1754
+      }
+    }, {
+      "uid" : "f646d81e808ae163",
+      "status" : "failed",
+      "statusDetails" : "expected 'A/B Test Control' to equal 'A/B Test Variation 1'      \n                      actual expected\n                      \n                      'A/B Test ControlVariation 1'\n                      ",
+      "time" : {
+        "start" : 1638506757091,
+        "stop" : 1638506758691,
+        "duration" : 1600
+      }
+    }, {
+      "uid" : "feda02eb1ed3ffc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638506618337,
+        "stop" : 1638506619619,
+        "duration" : 1282
+      }
+    }, {
+      "uid" : "2053488027e94964",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638506603236,
+        "stop" : 1638506605234,
+        "duration" : 1998
+      }
+    }, {
+      "uid" : "a35129dbaecc3346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638506592599,
+        "stop" : 1638506594570,
+        "duration" : 1971
+      }
+    }, {
+      "uid" : "e49f0299a9d1a20e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638506566931,
+        "stop" : 1638506568677,
+        "duration" : 1746
+      }
+    }, {
+      "uid" : "760d0f6cbbc76a58",
+      "status" : "failed",
+      "statusDetails" : "expected 'A/B Test Control' to equal 'A/B Test Variation 1'      \n                      actual expected\n                      \n                      'A/B Test ControlVariation 1'\n                      ",
+      "time" : {
+        "start" : 1638506493433,
+        "stop" : 1638506495014,
+        "duration" : 1581
+      }
+    }, {
+      "uid" : "4cef1c1f11b13ad3",
+      "status" : "failed",
+      "statusDetails" : "expected 'A/B Test Variation 1' to equal 'Variation 1'      \n                      actual expected\n                      \n                      'A/B Test Variation 1'\n                      ",
+      "time" : {
+        "start" : 1638506454145,
+        "stop" : 1638506455441,
+        "duration" : 1296
+      }
+    }, {
+      "uid" : "159100f80c10859",
+      "status" : "failed",
+      "statusDetails" : "expected 'A/B Test Variation 1' to equal 'A/B Test Control'      \n                      actual expected\n                      \n                      'A/B Test Variation 1Control'\n                      ",
+      "time" : {
+        "start" : 1638506401224,
+        "stop" : 1638506402495,
+        "duration" : 1271
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a18bb1d0b85bb484.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

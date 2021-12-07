@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638653698631' stop='1638653710277'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638653698632' status='broken' stop='1638653710271'>
+            <name>Should click a checkbox</name>
+            <title>Should click a checkbox</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='e4bd067d-b365-4de3-9d66-737486613f75-attachment.mp4' type='video/mp4' size='181'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "input[type=checkbox]:nth-child(2)" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "input[type=checkbox]:nth-child(2)" because element wasn't found
+                    at implicitWait (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/utils/implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/middlewares.js:20:29)
+                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)
+                    at async Context.&lt;anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:96:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

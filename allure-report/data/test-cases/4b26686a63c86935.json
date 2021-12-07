@@ -1,0 +1,79 @@
+{
+  "uid" : "4b26686a63c86935",
+  "name" : "Should switch to a frame",
+  "fullName" : "Interacting with page elements.Should switch to a frame",
+  "historyId" : "13702d56f7c3f1f56985263c7441e44d",
+  "time" : {
+    "start" : 1638673087602,
+    "stop" : 1638673090968,
+    "duration" : 3366
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=96.0.4664.55)",
+  "statusTrace" : "0   chromedriver                        0x0000000102166269 __gxx_personality_v0 + 582729\n                1   chromedriver                        0x00000001020f1c33 __gxx_personality_v0 + 106003\n                2   chromedriver                        0x0000000101caee28 chromedriver + 171560\n                3   chromedriver                        0x0000000101d15ae1 chromedriver + 592609\n                4   chromedriver                        0x0000000101d01912 chromedriver + 510226\n                5   chromedriver                        0x0000000101d14462 chromedriver + 586850\n                6   chromedriver                        0x0000000101d01c23 chromedriver + 511011\n                7   chromedriver                        0x0000000101cd775e chromedriver + 337758\n                8   chromedriver                        0x0000000101cd8a95 chromedriver + 342677\n                9   chromedriver                        0x00000001021228ab __gxx_personality_v0 + 305803\n                10  chromedriver                        0x0000000102139863 __gxx_personality_v0 + 399939\n                11  chromedriver                        0x000000010213ec7f __gxx_personality_v0 + 421471\n                12  chromedriver                        0x000000010213abba __gxx_personality_v0 + 404890\n                13  chromedriver                        0x0000000102116e51 __gxx_personality_v0 + 258097\n                14  chromedriver                        0x0000000102156158 __gxx_personality_v0 + 516920\n                15  chromedriver                        0x00000001021562e1 __gxx_personality_v0 + 517313\n                16  chromedriver                        0x000000010216d6f8 __gxx_personality_v0 + 612568\n                17  libsystem_pthread.dylib             0x00007fff204cb8fc _pthread_start + 224\n                18  libsystem_pthread.dylib             0x00007fff204c7443 thread_start + 15\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=96.0.4664.55)",
+    "statusTrace" : "0   chromedriver                        0x0000000102166269 __gxx_personality_v0 + 582729\n                1   chromedriver                        0x00000001020f1c33 __gxx_personality_v0 + 106003\n                2   chromedriver                        0x0000000101caee28 chromedriver + 171560\n                3   chromedriver                        0x0000000101d15ae1 chromedriver + 592609\n                4   chromedriver                        0x0000000101d01912 chromedriver + 510226\n                5   chromedriver                        0x0000000101d14462 chromedriver + 586850\n                6   chromedriver                        0x0000000101d01c23 chromedriver + 511011\n                7   chromedriver                        0x0000000101cd775e chromedriver + 337758\n                8   chromedriver                        0x0000000101cd8a95 chromedriver + 342677\n                9   chromedriver                        0x00000001021228ab __gxx_personality_v0 + 305803\n                10  chromedriver                        0x0000000102139863 __gxx_personality_v0 + 399939\n                11  chromedriver                        0x000000010213ec7f __gxx_personality_v0 + 421471\n                12  chromedriver                        0x000000010213abba __gxx_personality_v0 + 404890\n                13  chromedriver                        0x0000000102116e51 __gxx_personality_v0 + 258097\n                14  chromedriver                        0x0000000102156158 __gxx_personality_v0 + 516920\n                15  chromedriver                        0x00000001021562e1 __gxx_personality_v0 + 517313\n                16  chromedriver                        0x000000010216d6f8 __gxx_personality_v0 + 612568\n                17  libsystem_pthread.dylib             0x00007fff204cb8fc _pthread_start + 224\n                18  libsystem_pthread.dylib             0x00007fff204c7443 thread_start + 15\n                ",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9a01b1d8a69a741",
+      "name" : "Execution video",
+      "source" : "f9a01b1d8a69a741.mp4",
+      "type" : "video/mp4",
+      "size" : 22149
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should switch to a frame"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b26686a63c86935.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

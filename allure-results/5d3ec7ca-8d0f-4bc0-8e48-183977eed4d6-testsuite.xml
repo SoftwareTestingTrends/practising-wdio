@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638502847389' stop='1638502858649'>
+    <name>Interacting with elements</name>
+    <title>Interacting with elements</title>
+    <test-cases>
+        <test-case start='1638502847389' status='failed' stop='1638502858644'>
+            <name>should get the text for the element</name>
+            <title>should get the text for the element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='88d3941d-6713-4553-af76-3509ad9e4fef-attachment.mp4' type='video/mp4' size='188'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`.heading`) to have text containing
+                
+                Expected: "Welcome to the-internet3"
+                Received: "Welcome to the-internet"</message>
+                <stack-trace>Error: Expect $(`.heading`) to have text containing
+                
+                Expected: "Welcome to the-internet3"
+                Received: "Welcome to the-internet"
+                    at Context.&lt;anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:8:44)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

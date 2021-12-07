@@ -1,0 +1,75 @@
+{
+  "uid" : "5b2a54dde7649dc7",
+  "name" : "should logout from the site",
+  "fullName" : "User can log out from the site.should logout from the site",
+  "historyId" : "1311d76fce86265f2abcb282ead6107f",
+  "time" : {
+    "start" : 1638500196894,
+    "stop" : 1638500201875,
+    "duration" : 4981
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cfdcfce48123ba09",
+      "name" : "Execution video",
+      "source" : "cfdcfce48123ba09.mp4",
+      "type" : "video/mp4",
+      "size" : 33358
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "User can log out from the site"
+  }, {
+    "name" : "testClass",
+    "value" : "User can log out from the site"
+  }, {
+    "name" : "testMethod",
+    "value" : "should logout from the site"
+  }, {
+    "name" : "package",
+    "value" : "User can log out from the site"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b2a54dde7649dc7.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

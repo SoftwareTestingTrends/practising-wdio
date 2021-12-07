@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638748654173' stop='1638748664431'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638748654174' status='passed' stop='1638748664427'>
+            <name>should demonstrate the use of dynamic controls</name>
+            <title>should demonstrate the use of dynamic controls</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='e021fae6-03e2-47aa-b953-2fb046f8db15-attachment.mp4' type='video/mp4' size='204'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

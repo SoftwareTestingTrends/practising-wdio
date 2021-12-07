@@ -1,0 +1,122 @@
+{
+  "uid" : "76a080558788abd5",
+  "name" : "should demonstrate the use of dynamic controls",
+  "fullName" : "Interacting with page elements.should demonstrate the use of dynamic controls",
+  "historyId" : "f104e524e2bab1fbce7996ac8da92897",
+  "time" : {
+    "start" : 1638748654174,
+    "stop" : 1638748664427,
+    "duration" : 10253
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1e2d848dc0904eab",
+      "name" : "Execution video",
+      "source" : "1e2d848dc0904eab.mp4",
+      "type" : "video/mp4",
+      "size" : 30178
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should demonstrate the use of dynamic controls"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "99065c7f913c9aba",
+      "status" : "broken",
+      "statusDetails" : "Assignment to constant variable.",
+      "time" : {
+        "start" : 1638748604268,
+        "stop" : 1638748609886,
+        "duration" : 5618
+      }
+    }, {
+      "uid" : "ed1d90d775008a92",
+      "status" : "broken",
+      "statusDetails" : "Assignment to constant variable.",
+      "time" : {
+        "start" : 1638748457533,
+        "stop" : 1638748463271,
+        "duration" : 5738
+      }
+    }, {
+      "uid" : "6eed306a89f2977",
+      "status" : "broken",
+      "statusDetails" : "btnInputExample is not defined",
+      "time" : {
+        "start" : 1638748389383,
+        "stop" : 1638748392315,
+        "duration" : 2932
+      }
+    }, {
+      "uid" : "3cf3f5f9a64a52ed",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"h3\" because element wasn't found",
+      "time" : {
+        "start" : 1638748306648,
+        "stop" : 1638748318383,
+        "duration" : 11735
+      }
+    }, {
+      "uid" : "81fae73d9dd1fc18",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"http://the-internet.herokuapp.com/dynamic_controls\"\n                Received: \"https://the-internet.herokuapp.com/dynamic_controls\"",
+      "time" : {
+        "start" : 1638748255719,
+        "stop" : 1638748266984,
+        "duration" : 11265
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76a080558788abd5.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

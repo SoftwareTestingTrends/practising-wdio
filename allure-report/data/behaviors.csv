@@ -1,0 +1,8 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","","","1","2","18","0","0"
+"","","Home Page Validation","0","0","1","0","0"
+"","","Clicking a link to navigate to another page","0","0","1","0","0"
+"","","Getting the text from the page elements","0","0","2","0","0"
+"","","Getting a list of elements displayed on the page","0","0","1","0","0"
+"","","Logout Story","0","0","1","0","0"
+"","","Login Story","0","0","1","0","0"

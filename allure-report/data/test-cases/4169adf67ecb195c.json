@@ -1,0 +1,79 @@
+{
+  "uid" : "4169adf67ecb195c",
+  "name" : "Should hover(mouse) over an object",
+  "fullName" : "Interacting with page elements.Should hover(mouse) over an object",
+  "historyId" : "54c15b0682e1f64cb39064346b0b5d03",
+  "time" : {
+    "start" : 1638661919035,
+    "stop" : 1638661932371,
+    "duration" : 13336
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect name: user1 to have text containing\n                \n                Expected: \"name: user1\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect name: user1 to have text containing\n                \n                Expected: \"name: user1\"\n                Received: undefined\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:107:60)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect name: user1 to have text containing\n                \n                Expected: \"name: user1\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect name: user1 to have text containing\n                \n                Expected: \"name: user1\"\n                Received: undefined\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:107:60)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e7509bae1a67738",
+      "name" : "Execution video",
+      "source" : "7e7509bae1a67738.mp4",
+      "type" : "video/mp4",
+      "size" : 17358
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should hover(mouse) over an object"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4169adf67ecb195c.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

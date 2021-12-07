@@ -1,0 +1,79 @@
+{
+  "uid" : "7fe50136dc860656",
+  "name" : "Should send a keyboard key",
+  "fullName" : "Interacting with page elements.Should send a keyboard key",
+  "historyId" : "3e6d74e0df97e80b4177d34f1b031e87",
+  "time" : {
+    "start" : 1638663410190,
+    "stop" : 1638663412944,
+    "duration" : 2754
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid Chai property: toHaveUrl",
+  "statusTrace" : "Error: Invalid Chai property: toHaveUrl\n                    at Object.proxyGetter [as get] (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/chai/lib/chai/utils/proxify.js:78:17)\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:116:30)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Invalid Chai property: toHaveUrl",
+    "statusTrace" : "Error: Invalid Chai property: toHaveUrl\n                    at Object.proxyGetter [as get] (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/chai/lib/chai/utils/proxify.js:78:17)\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:116:30)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e7a14f1e3fed8457",
+      "name" : "Execution video",
+      "source" : "e7a14f1e3fed8457.mp4",
+      "type" : "video/mp4",
+      "size" : 17213
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should send a keyboard key"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fe50136dc860656.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

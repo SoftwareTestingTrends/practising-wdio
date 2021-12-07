@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638662744664' stop='1638662746403'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638662744665' status='passed' stop='1638662746399'>
+            <name>Should send a keyboard key</name>
+            <title>Should send a keyboard key</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='0794fd1d-099f-4f0d-ae59-683f2022d7f7-attachment.mp4' type='video/mp4' size='184'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

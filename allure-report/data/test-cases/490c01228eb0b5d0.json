@@ -1,0 +1,82 @@
+{
+  "uid" : "490c01228eb0b5d0",
+  "name" : "should get the text for the element",
+  "fullName" : "Interacting with elements.should get the text for the element",
+  "historyId" : "cdf8d7c838869f09959a1c972412db18",
+  "time" : {
+    "start" : 1638503444591,
+    "stop" : 1638503446972,
+    "duration" : 2381
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'Welcome to the-internet' to equal 'Welcome to the-internet2'      \n                      actual expected\n                      \n                      'Welcome to the-internetinternet2'\n                      ",
+  "statusTrace" : "AssertionError: expected 'Welcome to the-internet' to equal 'Welcome to the-internet2'\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:12:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'Welcome to the-internet' to equal 'Welcome to the-internet2'      \n                      actual expected\n                      \n                      'Welcome to the-internetinternet2'\n                      ",
+    "statusTrace" : "AssertionError: expected 'Welcome to the-internet' to equal 'Welcome to the-internet2'\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:12:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "40472a441daa08ce",
+      "name" : "Execution video",
+      "source" : "40472a441daa08ce.mp4",
+      "type" : "video/mp4",
+      "size" : 13057
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Home Page Validation"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should get the text for the element"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "490c01228eb0b5d0.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

@@ -1,0 +1,79 @@
+{
+  "uid" : "f4de82476b7d4670",
+  "name" : "should save a screenshot of the browser view",
+  "fullName" : "Interacting with page elements.should save a screenshot of the browser view",
+  "historyId" : "d79db0188932ef85388381ae4801856b",
+  "time" : {
+    "start" : 1638584984964,
+    "stop" : 1638584988274,
+    "duration" : 3310
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "directory (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/screenshots) doesn't exist",
+  "statusTrace" : "Error: directory (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/screenshots) doesn't exist\n                    at assertDirectoryExists (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/utils/index.js:356:15)\n                    at Element.saveScreenshot (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/commands/element/saveScreenshot.js:34:39)\n                    at Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:38)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:52:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "directory (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/screenshots) doesn't exist",
+    "statusTrace" : "Error: directory (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/screenshots) doesn't exist\n                    at assertDirectoryExists (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/utils/index.js:356:15)\n                    at Element.saveScreenshot (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/commands/element/saveScreenshot.js:34:39)\n                    at Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:38)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:52:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "163fb2ea86ae7467",
+      "name" : "Execution video",
+      "source" : "163fb2ea86ae7467.mp4",
+      "type" : "video/mp4",
+      "size" : 14558
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4de82476b7d4670.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

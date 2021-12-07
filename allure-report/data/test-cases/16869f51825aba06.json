@@ -1,0 +1,75 @@
+{
+  "uid" : "16869f51825aba06",
+  "name" : "TC001_Taking Element Screenshot",
+  "fullName" : "Webdriver.io examples.TC001_Taking Element Screenshot",
+  "historyId" : "d88538fd15f4275618c3e009cadc08c4",
+  "time" : {
+    "start" : 1638583898984,
+    "stop" : 1638583899012,
+    "duration" : 28
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "44edb1393e7b1e7f",
+      "name" : "Execution video",
+      "source" : "44edb1393e7b1e7f.mp4",
+      "type" : "video/mp4",
+      "size" : 7662
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Webdriver.io examples"
+  }, {
+    "name" : "testClass",
+    "value" : "Webdriver.io examples"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC001_Taking Element Screenshot"
+  }, {
+    "name" : "package",
+    "value" : "Webdriver.io examples"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16869f51825aba06.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

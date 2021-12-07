@@ -1,0 +1,95 @@
+{
+  "uid" : "73122292f598dd60",
+  "name" : "should save a screenshot of the browser view",
+  "fullName" : "Interacting with page elements.should save a screenshot of the browser view",
+  "historyId" : "d79db0188932ef85388381ae4801856b",
+  "time" : {
+    "start" : 1638585018846,
+    "stop" : 1638585022200,
+    "duration" : 3354
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b2b4762aabc898cd",
+      "name" : "Execution video",
+      "source" : "b2b4762aabc898cd.mp4",
+      "type" : "video/mp4",
+      "size" : 14558
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f4de82476b7d4670",
+      "status" : "broken",
+      "statusDetails" : "directory (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/screenshots) doesn't exist",
+      "time" : {
+        "start" : 1638584984964,
+        "stop" : 1638584988274,
+        "duration" : 3310
+      }
+    }, {
+      "uid" : "fe39170c6fb8d8e3",
+      "status" : "broken",
+      "statusDetails" : "Can't call saveScreenshot on element with selector \"h3\" because element wasn't found",
+      "time" : {
+        "start" : 1638584924217,
+        "stop" : 1638584936619,
+        "duration" : 12402
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73122292f598dd60.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

@@ -1,0 +1,119 @@
+{
+  "uid" : "907a3a3205a41e8a",
+  "name" : "should demonstrate the dropdown list",
+  "fullName" : "Interacting with page elements.should demonstrate the dropdown list",
+  "historyId" : "79b57ebf5501d3ec92e764f7975bba25",
+  "time" : {
+    "start" : 1638683238839,
+    "stop" : 1638683249441,
+    "duration" : 10602
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://the-internet.herokuapp.com/dropdown\"\n                Received: \"https://the-internet.herokuapp.com/\"",
+  "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://the-internet.herokuapp.com/dropdown\"\n                Received: \"https://the-internet.herokuapp.com/\"\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:191:31)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://the-internet.herokuapp.com/dropdown\"\n                Received: \"https://the-internet.herokuapp.com/\"",
+    "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://the-internet.herokuapp.com/dropdown\"\n                Received: \"https://the-internet.herokuapp.com/\"\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:191:31)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69543e6ca435c8ec",
+      "name" : "Execution video",
+      "source" : "69543e6ca435c8ec.mp4",
+      "type" : "video/mp4",
+      "size" : 46415
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should demonstrate the dropdown list"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9bea55f78a79c0d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638679652802,
+        "stop" : 1638679655503,
+        "duration" : 2701
+      }
+    }, {
+      "uid" : "fbf1b2036691415f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638679506130,
+        "stop" : 1638679509367,
+        "duration" : 3237
+      }
+    }, {
+      "uid" : "d00b64faa8f6df7a",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://the-internet.herokuapp.com/drag_and_drop\"\n                Received: \"https://the-internet.herokuapp.com/dropdown\"",
+      "time" : {
+        "start" : 1638679457293,
+        "stop" : 1638679476044,
+        "duration" : 18751
+      }
+    }, {
+      "uid" : "cb944175cc92ef20",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"=Dropdown\" because element wasn't found",
+      "time" : {
+        "start" : 1638679362213,
+        "stop" : 1638679404209,
+        "duration" : 41996
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "907a3a3205a41e8a.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

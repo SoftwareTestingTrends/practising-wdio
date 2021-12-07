@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638507143827' stop='1638507145947'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638507143828' status='broken' stop='1638507145055'>
+            <name>should get the text from the page elements</name>
+            <title>should get the text from the page elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='story' value='Getting the text from the page elements'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='92edf63a-4fd1-4669-bbb3-507b6a0d8a0b-attachment.mp4' type='video/mp4' size='200'/>
+            </attachments>
+            <failure>
+                <message>HomePage.pageHeading is not a function</message>
+                <stack-trace>TypeError: HomePage.pageHeading is not a function
+                    at Context.&lt;anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:20:38)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1638507145061' status='passed' stop='1638507145944'>
+            <name>should be able to click on element</name>
+            <title>should be able to click on element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='story' value='Clicking a link to navigate to another page'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='169d51dc-4242-4f67-bb94-07f1fb11840c-attachment.mp4' type='video/mp4' size='192'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

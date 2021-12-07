@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638662181608' stop='1638662183983'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638662181609' status='passed' stop='1638662183979'>
+            <name>Should hover(mouse) over an object</name>
+            <title>Should hover(mouse) over an object</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='d9c52506-80e4-4413-8925-15cb5855404f-attachment.mp4' type='video/mp4' size='190'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638677921086' stop='1638677922942'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638677921086' status='passed' stop='1638677922938'>
+            <name>should demonstrate the dragAndDrop command</name>
+            <title>should demonstrate the dragAndDrop command</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='60f49972-50a7-42e5-9615-a961f061287a-attachment.mp4' type='video/mp4' size='200'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638582082924' stop='1638582083014'>
+    <name>Webdriver.io examples</name>
+    <title>Webdriver.io examples</title>
+    <test-cases>
+        <test-case start='1638582082925' status='passed' stop='1638582082999'>
+            <name>TC000_My First Test Case</name>
+            <title>TC000_My First Test Case</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='ba9103b2-193c-47f5-b216-50a1df915ae5-attachment.mp4' type='video/mp4' size='173'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

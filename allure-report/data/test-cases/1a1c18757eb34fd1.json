@@ -1,0 +1,75 @@
+{
+  "uid" : "1a1c18757eb34fd1",
+  "name" : "should wait until a certain condition occurs",
+  "fullName" : "Usage of 'waitUntil' for a certain condition.should wait until a certain condition occurs",
+  "historyId" : "bb6d61191bfd7484e574605686e62139",
+  "time" : {
+    "start" : 1638753120636,
+    "stop" : 1638753127580,
+    "duration" : 6944
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "673d4cf875496798",
+      "name" : "Execution video",
+      "source" : "673d4cf875496798.mp4",
+      "type" : "video/mp4",
+      "size" : 20945
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Usage of 'waitUntil' for a certain condition"
+  }, {
+    "name" : "testClass",
+    "value" : "Usage of 'waitUntil' for a certain condition"
+  }, {
+    "name" : "testMethod",
+    "value" : "should wait until a certain condition occurs"
+  }, {
+    "name" : "package",
+    "value" : "Usage of 'waitUntil' for a certain condition"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a1c18757eb34fd1.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

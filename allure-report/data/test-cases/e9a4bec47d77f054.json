@@ -1,0 +1,79 @@
+{
+  "uid" : "e9a4bec47d77f054",
+  "name" : "Should click a checkbox",
+  "fullName" : "Interacting with page elements.Should click a checkbox",
+  "historyId" : "62524a212da4f1a4ba3264d864b2bf3d",
+  "time" : {
+    "start" : 1638657322560,
+    "stop" : 1638657324000,
+    "duration" : 1440
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid Chai property: toHaveTextContaining",
+  "statusTrace" : "Error: Invalid Chai property: toHaveTextContaining\n                    at Object.proxyGetter [as get] (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/chai/lib/chai/utils/proxify.js:78:17)\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:95:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Invalid Chai property: toHaveTextContaining",
+    "statusTrace" : "Error: Invalid Chai property: toHaveTextContaining\n                    at Object.proxyGetter [as get] (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/chai/lib/chai/utils/proxify.js:78:17)\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:95:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "74c59a7a2a5575a9",
+      "name" : "Execution video",
+      "source" : "74c59a7a2a5575a9.mp4",
+      "type" : "video/mp4",
+      "size" : 14311
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click a checkbox"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9a4bec47d77f054.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638681678317' stop='1638681681123'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638681678317' status='broken' stop='1638681681119'>
+            <name>should demonstrate the handling of JS Alerts</name>
+            <title>should demonstrate the handling of JS Alerts</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='95a12c7e-f42e-4905-a620-2ac8014900d8-attachment.mp4' type='video/mp4' size='202'/>
+            </attachments>
+            <failure>
+                <message>no such alert
+                  (Session info: chrome=96.0.4664.55)</message>
+                <stack-trace>0   chromedriver                        0x000000010c67a269 __gxx_personality_v0 + 582729
+                1   chromedriver                        0x000000010c605c33 __gxx_personality_v0 + 106003
+                2   chromedriver                        0x000000010c1c2cdf chromedriver + 171231
+                3   chromedriver                        0x000000010c1b94d5 chromedriver + 132309
+                4   chromedriver                        0x000000010c1d5969 chromedriver + 248169
+                5   chromedriver                        0x000000010c215a4b chromedriver + 510539
+                6   chromedriver                        0x000000010c1d5767 chromedriver + 247655
+                7   chromedriver                        0x000000010c215a93 chromedriver + 510611
+                8   chromedriver                        0x000000010c1eb75e chromedriver + 337758
+                9   chromedriver                        0x000000010c1eca95 chromedriver + 342677
+                10  chromedriver                        0x000000010c6368ab __gxx_personality_v0 + 305803
+                11  chromedriver                        0x000000010c64d863 __gxx_personality_v0 + 399939
+                12  chromedriver                        0x000000010c652c7f __gxx_personality_v0 + 421471
+                13  chromedriver                        0x000000010c64ebba __gxx_personality_v0 + 404890
+                14  chromedriver                        0x000000010c62ae51 __gxx_personality_v0 + 258097
+                15  chromedriver                        0x000000010c66a158 __gxx_personality_v0 + 516920
+                16  chromedriver                        0x000000010c66a2e1 __gxx_personality_v0 + 517313
+                17  chromedriver                        0x000000010c6816f8 __gxx_personality_v0 + 612568
+                18  libsystem_pthread.dylib             0x00007fff204cb8fc _pthread_start + 224
+                19  libsystem_pthread.dylib             0x00007fff204c7443 thread_start + 15
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

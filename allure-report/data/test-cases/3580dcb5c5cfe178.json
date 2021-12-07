@@ -1,0 +1,82 @@
+{
+  "uid" : "3580dcb5c5cfe178",
+  "name" : "should be able to click on element",
+  "fullName" : "Interacting with page elements.should be able to click on element",
+  "historyId" : "9d196912403525311ee0462180e1af7a",
+  "time" : {
+    "start" : 1638658558420,
+    "stop" : 1638658561348,
+    "duration" : 2928
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid Chai property: toHaveUrl",
+  "statusTrace" : "Error: Invalid Chai property: toHaveUrl\n                    at Object.proxyGetter [as get] (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/chai/lib/chai/utils/proxify.js:78:17)\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:36:30)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Invalid Chai property: toHaveUrl",
+    "statusTrace" : "Error: Invalid Chai property: toHaveUrl\n                    at Object.proxyGetter [as get] (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/chai/lib/chai/utils/proxify.js:78:17)\n                    at Context.<anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:36:30)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "212a781c9fd27b68",
+      "name" : "Execution video",
+      "source" : "212a781c9fd27b68.mp4",
+      "type" : "video/mp4",
+      "size" : 14558
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Clicking a link to navigate to another page"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to click on element"
+  }, {
+    "name" : "package",
+    "value" : "Interacting with page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  }, {
+    "name" : "browserVersion",
+    "value" : "96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3580dcb5c5cfe178.json",
+  "parameterValues" : [ "chrome-96.0.4664.55", "96.0.4664.55" ]
+}

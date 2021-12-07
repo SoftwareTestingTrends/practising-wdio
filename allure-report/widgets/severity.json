@@ -1,0 +1,281 @@
+[ {
+  "uid" : "58d5d9577d78b184",
+  "name" : "should demonstrate the dragAndDrop command",
+  "time" : {
+    "start" : 1638683237373,
+    "stop" : 1638683238837,
+    "duration" : 1464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b030683e3db74f5",
+  "name" : "Should click a checkbox",
+  "time" : {
+    "start" : 1638683224647,
+    "stop" : 1638683226817,
+    "duration" : 2170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "868cc173dd5b79d4",
+  "name" : "TC000_My First Test Case",
+  "time" : {
+    "start" : 1638582082925,
+    "stop" : 1638582082999,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8884187fbbb508e",
+  "name" : "should get the text from the page elements",
+  "time" : {
+    "start" : 1638505389570,
+    "stop" : 1638505391391,
+    "duration" : 1821
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce947e72a486ab4f",
+  "name" : "Should set a value",
+  "time" : {
+    "start" : 1638683221663,
+    "stop" : 1638683224624,
+    "duration" : 2961
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "907a3a3205a41e8a",
+  "name" : "should demonstrate the dropdown list",
+  "time" : {
+    "start" : 1638683238839,
+    "stop" : 1638683249441,
+    "duration" : 10602
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "777d5dbe9ec41ffd",
+  "name" : "should logout from the site",
+  "time" : {
+    "start" : 1638838585593,
+    "stop" : 1638838586243,
+    "duration" : 650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eeb2a434e15e2479",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1638838582745,
+    "stop" : 1638838585588,
+    "duration" : 2843
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76a080558788abd5",
+  "name" : "should demonstrate the use of dynamic controls",
+  "time" : {
+    "start" : 1638748654174,
+    "stop" : 1638748664427,
+    "duration" : 10253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e53620834387ffdb",
+  "name" : "should demonstrate the handling of JS Alerts",
+  "time" : {
+    "start" : 1638683290260,
+    "stop" : 1638683292176,
+    "duration" : 1916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6d570a7fb3bd7f1",
+  "name" : "Should switch to a frame",
+  "time" : {
+    "start" : 1638683233200,
+    "stop" : 1638683237371,
+    "duration" : 4171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fda4aaa9d82b4460",
+  "name" : "should logout from the site",
+  "time" : {
+    "start" : 1638573651262,
+    "stop" : 1638573657331,
+    "duration" : 6069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64857f2893e867c1",
+  "name" : "Should scroll into view",
+  "time" : {
+    "start" : 1638683220655,
+    "stop" : 1638683221662,
+    "duration" : 1007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57d529590f84f6ed",
+  "name" : "should save a screenshot of the element",
+  "time" : {
+    "start" : 1638683218264,
+    "stop" : 1638683219227,
+    "duration" : 963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1271c07e0c0c096a",
+  "name" : "should demonstrate the use of dynamic controls - Existence/non-existence of an element",
+  "time" : {
+    "start" : 1638755486343,
+    "stop" : 1638755495670,
+    "duration" : 9327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dd7b12233a1abf9",
+  "name" : "Should be able to get all Links from the webpage",
+  "time" : {
+    "start" : 1638683219636,
+    "stop" : 1638683220653,
+    "duration" : 1017
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25b0cc0ca36292ae",
+  "name" : "Should open a new window",
+  "time" : {
+    "start" : 1638683230353,
+    "stop" : 1638683233199,
+    "duration" : 2846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a0fd3bce1a5f192",
+  "name" : "Should hover(mouse) over an object",
+  "time" : {
+    "start" : 1638683226819,
+    "stop" : 1638683228653,
+    "duration" : 1834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80791988eb0db8b2",
+  "name" : "Should be able to authenticate",
+  "time" : {
+    "start" : 1638683219228,
+    "stop" : 1638683219632,
+    "duration" : 404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10e7b227383beeec",
+  "name" : "Should send a keyboard key",
+  "time" : {
+    "start" : 1638683228655,
+    "stop" : 1638683230351,
+    "duration" : 1696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73122292f598dd60",
+  "name" : "should save a screenshot of the browser view",
+  "time" : {
+    "start" : 1638585018846,
+    "stop" : 1638585022200,
+    "duration" : 3354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "141ce8421411e591",
+  "name" : "TC001_Taking Element Screenshot",
+  "time" : {
+    "start" : 1638584013009,
+    "stop" : 1638584013029,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af83a4517a2acde1",
+  "name" : "bar",
+  "time" : {
+    "start" : 1638683015401,
+    "stop" : 1638683017274,
+    "duration" : 1873
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a18bb1d0b85bb484",
+  "name" : "should be able to click on element",
+  "time" : {
+    "start" : 1638683215906,
+    "stop" : 1638683217064,
+    "duration" : 1158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78d8ad1c1e7cbf17",
+  "name" : "should wait until a certain condition occurs",
+  "time" : {
+    "start" : 1638755120991,
+    "stop" : 1638755132989,
+    "duration" : 11998
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e0410a7bd4ae941",
+  "name" : "should be able to get a list of elements",
+  "time" : {
+    "start" : 1638683217073,
+    "stop" : 1638683218262,
+    "duration" : 1189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10376fb3275183f0",
+  "name" : "should get the text from the page elements",
+  "time" : {
+    "start" : 1638683214179,
+    "stop" : 1638683215901,
+    "duration" : 1722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9abd171d7d8090b",
+  "name" : "should get the text for the element",
+  "time" : {
+    "start" : 1638505273334,
+    "stop" : 1638505275525,
+    "duration" : 2191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

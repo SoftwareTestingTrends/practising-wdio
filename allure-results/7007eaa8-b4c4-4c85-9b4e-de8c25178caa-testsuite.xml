@@ -1,0 +1,295 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638683214179' stop='1638683250778'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638683214179' status='passed' stop='1638683215901'>
+            <name>should get the text from the page elements</name>
+            <title>should get the text from the page elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='story' value='Getting the text from the page elements'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='f26140e4-19f9-4100-b1ae-22d3821d9150-attachment.mp4' type='video/mp4' size='200'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683215906' status='passed' stop='1638683217064'>
+            <name>should be able to click on element</name>
+            <title>should be able to click on element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='story' value='Clicking a link to navigate to another page'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='1b0a1700-ff38-40e3-a1d0-7aee18036f40-attachment.mp4' type='video/mp4' size='192'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683217073' status='passed' stop='1638683218262'>
+            <name>should be able to get a list of elements</name>
+            <title>should be able to get a list of elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='story' value='Getting a list of elements displayed on the page'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='0213e4f4-ec26-4cdd-ba2a-2a03ea95b47c-attachment.mp4' type='video/mp4' size='198'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683218264' status='passed' stop='1638683219227'>
+            <name>should save a screenshot of the element</name>
+            <title>should save a screenshot of the element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='5b37aa76-cd8d-4e51-bdd8-b080f38514be-attachment.mp4' type='video/mp4' size='197'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683219228' status='passed' stop='1638683219632'>
+            <name>Should be able to authenticate</name>
+            <title>Should be able to authenticate</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='ffbdbaab-59ef-493d-93ed-be6d50bf1970-attachment.mp4' type='video/mp4' size='188'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683219636' status='passed' stop='1638683220653'>
+            <name>Should be able to get all Links from the webpage</name>
+            <title>Should be able to get all Links from the webpage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='449852f8-94d4-4d6d-a22f-3ea5ddc5c7d5-attachment.mp4' type='video/mp4' size='206'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683220655' status='passed' stop='1638683221662'>
+            <name>Should scroll into view</name>
+            <title>Should scroll into view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='a9f02e96-da39-4686-a2d1-e856845d427d-attachment.mp4' type='video/mp4' size='181'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683221663' status='passed' stop='1638683224624'>
+            <name>Should set a value</name>
+            <title>Should set a value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='e9e2237c-ace2-437b-9ad7-ddd7b98ac67b-attachment.mp4' type='video/mp4' size='176'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683224647' status='passed' stop='1638683226817'>
+            <name>Should click a checkbox</name>
+            <title>Should click a checkbox</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='e2de4f07-219f-4bea-bc24-cd5faf5cfe26-attachment.mp4' type='video/mp4' size='181'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683226819' status='passed' stop='1638683228653'>
+            <name>Should hover(mouse) over an object</name>
+            <title>Should hover(mouse) over an object</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='da2f7feb-6e4d-4715-983d-e250726d1e08-attachment.mp4' type='video/mp4' size='190'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683228655' status='passed' stop='1638683230351'>
+            <name>Should send a keyboard key</name>
+            <title>Should send a keyboard key</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='c0027edf-fa70-42d7-86b5-6f918f064dd6-attachment.mp4' type='video/mp4' size='184'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683230353' status='passed' stop='1638683233199'>
+            <name>Should open a new window</name>
+            <title>Should open a new window</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='028f2c30-f574-4b2b-b7bd-122b27ee464a-attachment.mp4' type='video/mp4' size='182'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683233200' status='passed' stop='1638683237371'>
+            <name>Should switch to a frame</name>
+            <title>Should switch to a frame</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='1759f88e-d4c5-47d9-b100-940ae3ae1daf-attachment.mp4' type='video/mp4' size='182'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683237373' status='passed' stop='1638683238837'>
+            <name>should demonstrate the dragAndDrop command</name>
+            <title>should demonstrate the dragAndDrop command</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='f8d10428-5a25-44d7-88fb-93b61fc1699c-attachment.mp4' type='video/mp4' size='200'/>
+            </attachments>
+        </test-case>
+        <test-case start='1638683238839' status='failed' stop='1638683249441'>
+            <name>should demonstrate the dropdown list</name>
+            <title>should demonstrate the dropdown list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='4ff94a5e-8a3b-4349-980a-3b39c8ff9ec0-attachment.mp4' type='video/mp4' size='194'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have url
+                
+                Expected: "https://the-internet.herokuapp.com/dropdown"
+                Received: "https://the-internet.herokuapp.com/"</message>
+                <stack-trace>Error: Expect window to have url
+                
+                Expected: "https://the-internet.herokuapp.com/dropdown"
+                Received: "https://the-internet.herokuapp.com/"
+                    at Context.&lt;anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:191:31)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1638683249444' status='passed' stop='1638683250776'>
+            <name>should demonstrate the handling of JS Alerts</name>
+            <title>should demonstrate the handling of JS Alerts</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='01a0d8eb-0837-4d1e-bef9-e148f09e1a34-attachment.mp4' type='video/mp4' size='202'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

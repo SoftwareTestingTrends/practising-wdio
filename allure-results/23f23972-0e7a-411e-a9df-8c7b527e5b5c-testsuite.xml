@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638663410189' stop='1638663412948'>
+    <name>Interacting with page elements</name>
+    <title>Interacting with page elements</title>
+    <test-cases>
+        <test-case start='1638663410190' status='broken' stop='1638663412944'>
+            <name>Should send a keyboard key</name>
+            <title>Should send a keyboard key</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browserVersion' value='96.0.4664.55'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='0e5c76f3-7fde-4468-bf6c-1334a1889857-attachment.mp4' type='video/mp4' size='184'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: toHaveUrl</message>
+                <stack-trace>Error: Invalid Chai property: toHaveUrl
+                    at Object.proxyGetter [as get] (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/node_modules/chai/lib/chai/utils/proxify.js:78:17)
+                    at Context.&lt;anonymous> (/Users/ambreen.k/ambysan/learning-bee/mobile-automation/practising-wdio/test/specs/elements/element.e2e.js:116:30)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
